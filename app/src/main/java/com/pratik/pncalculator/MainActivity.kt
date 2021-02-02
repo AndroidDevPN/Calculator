@@ -64,6 +64,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             try {
+                
                 when {
                     enteredValue.contains("-") -> {
                         val splitValue: List<String> = enteredValue.split("-")
